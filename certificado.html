@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="stylec.css">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CEVA Logistics - Certificado</title>
+</head>
+
+<body>
+  <section class="form-container">
+    <div class="container">
+        <form action="">
+          <h1>CERTIFICADO</h1>
+          <p class="text">Certificamos que para os devidos fins, o colaborador</p>
+          <p id="p1" class="nomeuser">nome</p1>
+          <p class="text2">concluiu o treinamento com sucesso na data 30/05/2023 de forma eficiente.</p>
+
+          <p class="text3">CEVA Logistics 2023</p>
+        </form>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  const urlParams = new URLSearchParams(window.location.search);
+  const nomeresult = urlParams.get('nomebox');
+  document.getElementById("p1").innerHTML = nomeresult;
+</script>
+
+</html>
