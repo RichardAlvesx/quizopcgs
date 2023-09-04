@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://photos.watchmedier.dk/watchmedier/resize:fill:3840:0:0/plain/https://photos.watchmedier.dk/Images/article13032092.ece/ALTERNATES/schema-16_9/doc7g2tyjh7rzki6k2mmv4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(fundoindex.jpeg);
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+form{
+    background-color:white;
+    max-width: 500px;
+    height: 310px;
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+form h1{
+    text-align: center;
+    font-size: 80px;
+    color:blue;
+}
+
+form p{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.input-single{
+    position: relative;
+    margin: 20px 0;
+}
+
+.input-single label{
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    transition: all 0.5s;
+    cursor: text;
+}
+
+button{
+    width: 100%;
+    text-align: center; 
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+}
+.input{
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid black;
+    padding: 5px;
+    font-size: 17px;
+    outline: 0;
+}
+
+form .input-single .input:focus ~ label,
+form .input-single .input:valid ~ label{
+    transform: translateY(-24px);
+    font-size: 12px;
+    color: blue;
+}
+
+.btn{
+    width: 100%;
+    text-align: center;
+}
+
+form input[type=button]{
+    padding: 10px 40px;
+    border: 0;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+}
