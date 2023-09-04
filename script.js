@@ -50,11 +50,11 @@ function nextQuestion(e) {
 function finish() {
   if(questionsCorrect == questions.length)
   {
-    textFinish.innerHTML = `<center>Muito bem..<br>Você acertou todas as questões!<br>Clique abaixo para gerar seu certificado:`;
+    textFinish.innerHTML = `<center>Muito bem..<img src="13.png"><br>Você acertou todas as questões!<br>Clique abaixo para gerar seu certificado:`;
     content.style.display = "none";
     contentFinish.style.display = "flex";
   }else{
-    textRestart.innerHTML = `<center>Poxa.. Você não acertou todas as questões :(<br>Você acertou 0${questionsCorrect} de 0${questions.length} questões!<br>Tente novamente...`;
+    textRestart.innerHTML = `<center>Poxa.. Você não acertou todas as questões <img src="135884.png"><br>Você acertou 0${questionsCorrect} de 0${questions.length} questões!<br>Tente novamente...`;
     content.style.display = "none";
     contentRestart.style.display = "flex";   
   }

@@ -8,35 +8,35 @@ export default [
     ],
   },
   {
-    question: "Quais são os dois sites e-commerce ligados ao CD?",
+    question: "Quais são os sites e-commerce ligados ao CD?",
     answers: [
-      { option: "Beleza na Web e Boticário", correct: true },
-      { option: "Eudora e Quem Disse Berenice?", correct: false },
-      { option: "Boticário e Eudora", correct: false },
+      { option: "Beleza na Web, O Boticário, Eudora e Quem disse Berenice?", correct: true },
+      { option: "Jequiti, Natura, O Boticário e Eudora", correct: false },
+      { option: "Beleza na Web, O Boticário e Quem disse Berenice?", correct: false },
     ],
   },
   {
     question: "Qual é o nosso nível atual em auditoria SCA?",
     answers: [
       { option: "Showcase", correct: false },
-      { option: "Desenvolvedor", correct: false },
+      { option: "Desenvolvimento", correct: false },
       { option: "Avançado", correct: true },
     ],
   },
   {
-    question: "Qual é o nosso fluxo operacional?",
+    question: "Qual a cidade e estado de origem da marca O Boticário?",
     answers: [
-      { option: "Recebimento → Armazenagem → Ressuprimento → Faturamento → Expedição", correct: false },
-      { option: "Armazenagem → Ressuprimento → Picking → Expedição", correct: false },
-      { option: "Recebimento → Armazenagem → Ressuprimento → Picking → Faturamento → Expedição", correct: true },
+      { option: "Curitiba - PR", correct: true },
+      { option: "Registro - SP", correct: false },
+      { option: "Copacabana - RJ", correct: false },
     ],
   },
   {
-    question: "Qual é o nosso target NET e GROSS de Inventário?",
+    question: "Qual o ano de origem da marca O Boticário?",
     answers: [
-      { option: "NET: 99,95% | GROSS: 99,80%", correct: false },
-      { option: "NET: 99,85% | GROSS: 99,95%", correct: false },
-      { option: "NET: 99,95% | GROSS: 99,85%", correct: true },
+      { option: "1877", correct: false },
+      { option: "1987", correct: false },
+      { option: "1977", correct: true },
     ],
   },
 ];
