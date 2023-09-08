@@ -8,11 +8,11 @@ export default [
     ],
   },
   {
-    question: "Quais são os sites e-commerce ligados ao CD?",
+    question: "Qual das alternativas está incorreta?",
     answers: [
-      { option: "Beleza na Web, O Boticário, Eudora e Quem disse Berenice?", correct: true },
-      { option: "Jequiti, Natura, O Boticário e Eudora", correct: false },
-      { option: "Beleza na Web, O Boticário e Quem disse Berenice?", correct: false },
+      { option: "Fazem parte do Grupo Boticário: Eudora, Quem disse Berenice e Truss", correct: false },
+      { option: "Fazem parte do Grupo Boticário: Eudora, Quem disse Berenice", correct: false },
+      { option: "Fazem parte do Grupo Boticário: Eudora, Quem disse Berenice e Jequiti", correct: true },
     ],
   },
   {
