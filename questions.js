@@ -11,8 +11,8 @@ export default [
     question: "Qual das alternativas está incorreta?",
     answers: [
       { option: "Fazem parte do Grupo Boticário: Eudora, Quem disse Berenice e Truss", correct: false },
-      { option: "Fazem parte do Grupo Boticário: Eudora, Quem disse Berenice", correct: false },
-      { option: "Fazem parte do Grupo Boticário: Eudora, Quem disse Berenice e Jequiti", correct: true },
+      { option: "Fazem parte do Grupo Boticário: Eudora, Quem disse Berenice e Beleza na Web", correct: false },
+      { option: "Fazem parte do Grupo Boticário: Eudora, Quem disse Berenice, Natura e Jequiti", correct: true },
     ],
   },
   {
